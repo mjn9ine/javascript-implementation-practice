@@ -82,7 +82,7 @@ img {
   text-indent: -9999px;
   width: 28px;
   height: 28px;
-  background: center / contain url(../assets/images/icon_thumbs_up.png) no-repeat;
+  background: center / contain url(/src/images/icon_thumbs_up.png) no-repeat;
 }
 
 .button-recommend.on {
@@ -90,7 +90,7 @@ img {
 }
 
 .button-recommend.on .icon-thumbsup {
-  background-image: url(../assets/images/icon_thumbs_up_fill.png);
+  background-image: url(/src/images/icon_thumbs_up_fill.png);
 }
 
 .button-heart .icon-heart {
@@ -98,7 +98,7 @@ img {
   text-indent: -9999px;
   width: 28px;
   height: 28px;
-  background: center / contain url(../assets/images/icon_heart.png) no-repeat;
+  background: center / contain url(/src/images/icon_heart.png) no-repeat;
 }
 
 .button-heart.on {
@@ -106,7 +106,7 @@ img {
 }
 
 .button-heart.on .icon-heart {
-  background-image: url(../assets/images/icon_heart_fill.png);
+  background-image: url(/src/images/icon_heart_fill.png);
 }
 
 .star-average {

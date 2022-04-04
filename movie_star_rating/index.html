@@ -10,8 +10,8 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./style/reset.css" />
-    <link rel="stylesheet" href="./style/app.css" />
+    <link rel="stylesheet" href="./src/style/reset.css" />
+    <link rel="stylesheet" href="./src/style/app.css" />
     <title>영화 별점 평가하기</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
       <div class="movie-container">
         <section class="movie">
           <div class="poster-container">
-            <img src="./assets/images/poster_inception.jpg" alt="영화 포스터" />
+            <img src="./src/images/poster_inception.jpg" alt="영화 포스터" />
           </div>
           <div class="content">
             <div class="content-type">
@@ -40,38 +40,38 @@
               <div class="star-point-container">
                 <div class="star-background">
                   <img
-                    src="./assets/images/icon_empty_star.png"
+                    src="./src/images/icon_empty_star.png"
                     alt="1"
                     title="별로에요.."
                     data-point="1"
                   />
                   <img
-                    src="./assets/images/icon_empty_star.png"
+                    src="./src/images/icon_empty_star.png"
                     alt="2"
                     title="그저 그래요."
                     data-point="2"
                   />
                   <img
-                    src="./assets/images/icon_empty_star.png"
+                    src="./src/images/icon_empty_star.png"
                     alt="3"
                     title="괜찮아요."
                     data-point="3"
                   />
                   <img
-                    src="./assets/images/icon_empty_star.png"
+                    src="./src/images/icon_empty_star.png"
                     alt="4"
                     title="좋아요!"
                     data-point="4"
                   />
                   <img
-                    src="./assets/images/icon_empty_star.png"
+                    src="./src/images/icon_empty_star.png"
                     alt="5"
                     title="완전 강추!!"
                     data-point="5"
                   />
                 </div>
                 <button class="icon-remove-star">
-                  <img src="./assets/images/icon_remove_star.png" alt="별점 제거" />
+                  <img src="./src/images/icon_remove_star.png" alt="별점 제거" />
                 </button>
               </div>
             </div>
@@ -79,5 +79,6 @@
         </section>
       </div>
     </div>
+    <script type="module" src="src/js/index.js"></script>
   </body>
 </html>
